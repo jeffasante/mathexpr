@@ -1,0 +1,21 @@
+[package]
+name = "mathexpr"
+version = "0.1.0"
+edition = "2021"
+authors = ["Jeffrey Asante"]
+repository = "https://github.com/jeffasante"
+description = "A mathematical expression parser and evaluator in Rust."
+license = "MIT"
+
+[lib]
+name = "mathexpr"
+path = "src/lib.rs"
+
+[[bin]]
+name = "mathexpr"
+path = "src/main.rs"
+
+[dependencies]
+# For Result/Option extensions and functional combinators
+itertools = "0.12"
+thiserror = "1.0"   # For ergonomic error handling
