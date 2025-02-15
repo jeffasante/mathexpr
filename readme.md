@@ -231,6 +231,11 @@ Test coverage includes:
 - Complex expressions
 - CLI functionality
 
+## TODO (Upcoming Features)
+- **Symbolic Computation:** Expanding algebraic expressions (e.g., expanding `(x + 1)^2` to `x^2 + 2x + 1`).
+- **Graph Plotting:** Rendering expressions visually using `gnuplot` or `plotters`.
+- **Differentiation:** Implementing basic calculus (e.g., `d/dx (x^2) = 2x`).
+
 ## Contributing
 
 Contributions welcome:
